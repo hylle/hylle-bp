@@ -4,7 +4,7 @@ This is my personal boilerplate for starting new projects.
 
 ## Tools used
 
-* [Less](http://lesscss.org)
+* [LESS](http://lesscss.org)
 * [CodeKit](http://incident57.com/codekit/)
 
 ## References
