@@ -1,6 +1,13 @@
 /*------------------------------------*\
     $TYPOGRAPHY
 \*------------------------------------*/
+html {
+	// REMIXINS: Setup step 1 - Base font size of 10px
+	font-size: 62.5%;
+}
+
 body {
-	font-size: @base-font-size;
+	// REMIXINS: Setup step 2 - Set the desired font-size using mixins
+	.font-size(@body-font-size);
+	.line-height(ceil(@body-font-size * 1.5));
 }
